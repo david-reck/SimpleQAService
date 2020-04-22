@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ConsoleApp1/1.0.0": {
+        "dependencies": {
+          "RestSharp": "106.10.1",
+          "RestSharp.Newtonsoft.Json": "1.5.1"
+        },
+        "runtime": {
+          "ConsoleApp1.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
+          }
+        }
+      },
+      "RestSharp/106.10.1": {
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.dll": {
+            "assemblyVersion": "106.0.0.0",
+            "fileVersion": "106.10.1.0"
+          }
+        }
+      },
+      "RestSharp.Newtonsoft.Json/1.5.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1",
+          "RestSharp": "106.10.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/RestSharp.Serializers.Newtonsoft.Json.dll": {
+            "assemblyVersion": "1.5.1.0",
+            "fileVersion": "1.5.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+    },
+    "RestSharp/106.10.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MhR4w8LbArVaRA5T/oAR3ZnF852QXtDXRBO84GsvyYzsm7FsjXHJ+JaM8x/nR/B/OCB1WbolGH7hqMT1GZpNJw==",
+      "path": "restsharp/106.10.1",
+      "hashPath": "restsharp.106.10.1.nupkg.sha512"
+    },
+    "RestSharp.Newtonsoft.Json/1.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vQaByN85aGazf45Xfseu+/8PmTuOyngqSXr+jILFYZxr51NARQ4WAyVruJAVzfpFkqXQ9aQtw2+yaygyGafjYg==",
+      "path": "restsharp.newtonsoft.json/1.5.1",
+      "hashPath": "restsharp.newtonsoft.json.1.5.1.nupkg.sha512"
+    }
+  }
+}

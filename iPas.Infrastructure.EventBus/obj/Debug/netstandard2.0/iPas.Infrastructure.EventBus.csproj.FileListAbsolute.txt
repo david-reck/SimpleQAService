@@ -1,0 +1,2 @@
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPas.Infrastructure.EventBus\obj\Debug\netstandard2.0\iPas.Infrastructure.EventBus.AssemblyInfoInputs.cache
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPas.Infrastructure.EventBus\obj\Debug\netstandard2.0\iPas.Infrastructure.EventBus.AssemblyInfo.cs

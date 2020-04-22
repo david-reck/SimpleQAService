@@ -1,0 +1,14 @@
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\ConsoleApp1\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\ConsoleApp1\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\ConsoleApp1\bin\Debug\netcoreapp3.1\RestSharp.Serializers.Newtonsoft.Json.dll
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CopyComplete
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb

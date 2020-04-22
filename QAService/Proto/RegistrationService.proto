@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option csharp_namespace = "RegistrationService.API.Grpc";
+
+package RegistrationApi;
+
+service RegistrationApiRetrieval {
+	rpc FindAdtMessageById (AdtMessageRequest) returns (AdtMessageResponse);
+}
+message AdtMessageRequest {
+	string id = 1;
+	int32 clientId = 2;
+}
+
+message AdtMessageResponse {
+	string AdtMessage = 1;
+}

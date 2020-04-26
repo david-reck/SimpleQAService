@@ -117,11 +117,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\ConsoleApp1\\ConsoleApp1.csproj",
       "packagesPath": "C:\\Users\\dreck.PEL-LP-HQ301\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\ConsoleApp1\\obj\\",
+      "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

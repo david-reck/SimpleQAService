@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Infrastructure\\QAService.Infrastructure.csproj": {}
+    "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Infrastructure\\QAService.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Domain\\QAService.Domain.csproj": {
+    "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Domain\\QAService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Domain\\QAService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Domain\\QAService.Domain.csproj",
         "projectName": "QAService.Domain",
-        "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Domain\\QAService.Domain.csproj",
+        "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Domain\\QAService.Domain.csproj",
         "packagesPath": "C:\\Users\\dreck.PEL-LP-HQ301\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Domain\\obj\\",
+        "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Infrastructure\\QAService.Infrastructure.csproj": {
+    "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Infrastructure\\QAService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Infrastructure\\QAService.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Infrastructure\\QAService.Infrastructure.csproj",
         "projectName": "QAService.Infrastructure",
-        "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Infrastructure\\QAService.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Infrastructure\\QAService.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\dreck.PEL-LP-HQ301\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -89,8 +89,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Domain\\QAService.Domain.csproj": {
-                "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Domain\\QAService.Domain.csproj"
+              "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Domain\\QAService.Domain.csproj": {
+                "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Domain\\QAService.Domain.csproj"
               }
             }
           }

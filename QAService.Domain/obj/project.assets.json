@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Domain\\QAService.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Domain\\QAService.Domain.csproj",
       "projectName": "QAService.Domain",
-      "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Domain\\QAService.Domain.csproj",
+      "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Domain\\QAService.Domain.csproj",
       "packagesPath": "C:\\Users\\dreck.PEL-LP-HQ301\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Domain\\obj\\",
+      "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

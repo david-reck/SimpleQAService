@@ -6155,11 +6155,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj",
+      "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj",
       "projectName": "iPas.Infrastructure.EventBusServiceBus",
-      "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj",
+      "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj",
       "packagesPath": "C:\\Users\\dreck.PEL-LP-HQ301\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.EventBusServiceBus\\obj\\",
+      "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.EventBusServiceBus\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6180,8 +6180,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {
-              "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj"
+            "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {
+              "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj"
             }
           }
         }

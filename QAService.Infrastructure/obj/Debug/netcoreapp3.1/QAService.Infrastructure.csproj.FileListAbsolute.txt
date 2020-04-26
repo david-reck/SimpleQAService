@@ -9,3 +9,14 @@ C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\QAService.Infrastructure\o
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\QAService.Infrastructure\obj\Debug\netcoreapp3.1\QAService.Infrastructure.csproj.CopyComplete
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\QAService.Infrastructure\obj\Debug\netcoreapp3.1\QAService.Infrastructure.dll
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\QAService.Infrastructure\obj\Debug\netcoreapp3.1\QAService.Infrastructure.pdb
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Infrastructure\bin\Debug\netcoreapp3.1\QAService.Infrastructure.deps.json
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Infrastructure\bin\Debug\netcoreapp3.1\QAService.Infrastructure.dll
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Infrastructure\bin\Debug\netcoreapp3.1\QAService.Infrastructure.pdb
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Infrastructure\bin\Debug\netcoreapp3.1\QAService.Domain.dll
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Infrastructure\bin\Debug\netcoreapp3.1\QAService.Domain.pdb
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Infrastructure\obj\Debug\netcoreapp3.1\QAService.Infrastructure.csprojAssemblyReference.cache
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Infrastructure\obj\Debug\netcoreapp3.1\QAService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Infrastructure\obj\Debug\netcoreapp3.1\QAService.Infrastructure.AssemblyInfo.cs
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Infrastructure\obj\Debug\netcoreapp3.1\QAService.Infrastructure.csproj.CopyComplete
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Infrastructure\obj\Debug\netcoreapp3.1\QAService.Infrastructure.dll
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Infrastructure\obj\Debug\netcoreapp3.1\QAService.Infrastructure.pdb

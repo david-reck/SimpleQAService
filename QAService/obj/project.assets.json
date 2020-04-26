@@ -16055,11 +16055,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService\\QAService.csproj",
+      "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService\\QAService.csproj",
       "projectName": "QAService",
-      "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService\\QAService.csproj",
+      "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService\\QAService.csproj",
       "packagesPath": "C:\\Users\\dreck.PEL-LP-HQ301\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService\\obj\\",
+      "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -16080,23 +16080,23 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj": {
-              "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj"
+            "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj": {
+              "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.EventBusServiceBus\\iPas.Infrastructure.EventBusServiceBus.csproj"
             },
-            "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {
-              "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj"
+            "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {
+              "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj"
             },
-            "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj": {
-              "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj"
+            "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj": {
+              "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.IntegrationEventLogEF\\iPas.Infrastructure.IntegrationEventLogEF.csproj"
             },
-            "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Domain\\QAService.Domain.csproj": {
-              "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Domain\\QAService.Domain.csproj"
+            "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Domain\\QAService.Domain.csproj": {
+              "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Domain\\QAService.Domain.csproj"
             },
-            "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Infrastructure\\QAService.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.Infrastructure\\QAService.Infrastructure.csproj"
+            "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Infrastructure\\QAService.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.Infrastructure\\QAService.Infrastructure.csproj"
             },
-            "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.RuleEngine\\QAService.RuleEngine.csproj": {
-              "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.RuleEngine\\QAService.RuleEngine.csproj"
+            "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.RuleEngine\\QAService.RuleEngine.csproj": {
+              "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.RuleEngine\\QAService.RuleEngine.csproj"
             }
           }
         }

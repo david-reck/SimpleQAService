@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.RuleEngine\\QAService.RuleEngine.csproj": {}
+    "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.RuleEngine\\QAService.RuleEngine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.RuleEngine\\QAService.RuleEngine.csproj": {
+    "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.RuleEngine\\QAService.RuleEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.RuleEngine\\QAService.RuleEngine.csproj",
+        "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.RuleEngine\\QAService.RuleEngine.csproj",
         "projectName": "QAService.RuleEngine",
-        "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.RuleEngine\\QAService.RuleEngine.csproj",
+        "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.RuleEngine\\QAService.RuleEngine.csproj",
         "packagesPath": "C:\\Users\\dreck.PEL-LP-HQ301\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\QAService.RuleEngine\\obj\\",
+        "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\QAService.RuleEngine\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

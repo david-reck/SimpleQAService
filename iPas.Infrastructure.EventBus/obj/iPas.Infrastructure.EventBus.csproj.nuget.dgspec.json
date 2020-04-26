@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {}
+    "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {
+    "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj",
+        "projectUniqueName": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj",
         "projectName": "iPas.Infrastructure.EventBus",
-        "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj",
+        "projectPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.EventBus\\iPas.Infrastructure.EventBus.csproj",
         "packagesPath": "C:\\Users\\dreck.PEL-LP-HQ301\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPas.Infrastructure.EventBus\\obj\\",
+        "outputPath": "C:\\Users\\dreck\\source\\repos\\iPasCloudPOCServiceFabric\\iPasCloudPOCServiceFabric\\SimpleQAService\\iPas.Infrastructure.EventBus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

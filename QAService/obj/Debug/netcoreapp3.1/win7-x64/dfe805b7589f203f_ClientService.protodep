@@ -1,0 +1,2 @@
+obj\Debug\netcoreapp3.1\win7-x64/ClientService.cs \
+obj\Debug\netcoreapp3.1\win7-x64/ClientServiceGrpc.cs: Proto/ClientService.proto

@@ -55,7 +55,12 @@ namespace QAService
             container.Populate(services);
 
             container.RegisterModule(new MediatorModule());
-            container.RegisterModule(new ApplicationModule(Configuration.GetConnectionString("QAConnex")));
+            container.RegisterModule(new ApplicationModule(
+                    Configuration.GetConnectionString("QAConnex"),
+                    Configuration.GetValue<string>("CliendServiceEndPoint:ClientServiceURL"),
+                    Configuration.GetValue<string>("CliendServiceEndPoint:RegistrationServiceURL"),
+                    Configuration.GetValue<string>("Module:Name")
+            ));
             
             return new AutofacServiceProvider(container.Build());
 

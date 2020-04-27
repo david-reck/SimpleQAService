@@ -35,6 +35,7 @@
 
   <ItemGroup>
     <Protobuf Include="Proto\RegistrationService.proto" GrpcServices="Client" />
+    <Protobuf Include="Proto\ClientService.proto" GrpcServices="Client" />
   </ItemGroup>
 
   <ItemGroup>

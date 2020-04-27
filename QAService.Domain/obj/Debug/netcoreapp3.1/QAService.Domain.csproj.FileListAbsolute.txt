@@ -9,7 +9,6 @@ C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\QAService.Domain\obj\Debug
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Domain\bin\Debug\netcoreapp3.1\QAService.Domain.deps.json
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Domain\bin\Debug\netcoreapp3.1\QAService.Domain.dll
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Domain\bin\Debug\netcoreapp3.1\QAService.Domain.pdb
-C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Domain\obj\Debug\netcoreapp3.1\QAService.Domain.csprojAssemblyReference.cache
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Domain\obj\Debug\netcoreapp3.1\QAService.Domain.AssemblyInfoInputs.cache
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Domain\obj\Debug\netcoreapp3.1\QAService.Domain.AssemblyInfo.cs
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.Domain\obj\Debug\netcoreapp3.1\QAService.Domain.dll

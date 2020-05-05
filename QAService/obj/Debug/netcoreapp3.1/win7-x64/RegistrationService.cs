@@ -26,7 +26,7 @@ namespace RegistrationService.API.Grpc {
           string.Concat(
             "Ch9Qcm90by9SZWdpc3RyYXRpb25TZXJ2aWNlLnByb3RvEg9SZWdpc3RyYXRp",
             "b25BcGkiMQoRQWR0TWVzc2FnZVJlcXVlc3QSCgoCaWQYASABKAkSEAoIY2xp",
-            "ZW50SWQYAiABKAUiKAoSQWR0TWVzc2FnZVJlc3BvbnNlEhIKCkFkdE1lc3Nh",
+            "ZW50SWQYAiABKAMiKAoSQWR0TWVzc2FnZVJlc3BvbnNlEhIKCkFkdE1lc3Nh",
             "Z2UYASABKAkyeQoYUmVnaXN0cmF0aW9uQXBpUmV0cmlldmFsEl0KEkZpbmRB",
             "ZHRNZXNzYWdlQnlJZBIiLlJlZ2lzdHJhdGlvbkFwaS5BZHRNZXNzYWdlUmVx",
             "dWVzdBojLlJlZ2lzdHJhdGlvbkFwaS5BZHRNZXNzYWdlUmVzcG9uc2VCH6oC",
@@ -90,9 +90,9 @@ namespace RegistrationService.API.Grpc {
 
     /// <summary>Field number for the "clientId" field.</summary>
     public const int ClientIdFieldNumber = 2;
-    private int clientId_;
+    private long clientId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int ClientId {
+    public long ClientId {
       get { return clientId_; }
       set {
         clientId_ = value;
@@ -121,7 +121,7 @@ namespace RegistrationService.API.Grpc {
     public override int GetHashCode() {
       int hash = 1;
       if (Id.Length != 0) hash ^= Id.GetHashCode();
-      if (ClientId != 0) hash ^= ClientId.GetHashCode();
+      if (ClientId != 0L) hash ^= ClientId.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -139,9 +139,9 @@ namespace RegistrationService.API.Grpc {
         output.WriteRawTag(10);
         output.WriteString(Id);
       }
-      if (ClientId != 0) {
+      if (ClientId != 0L) {
         output.WriteRawTag(16);
-        output.WriteInt32(ClientId);
+        output.WriteInt64(ClientId);
       }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
@@ -154,8 +154,8 @@ namespace RegistrationService.API.Grpc {
       if (Id.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(Id);
       }
-      if (ClientId != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ClientId);
+      if (ClientId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(ClientId);
       }
       if (_unknownFields != null) {
         size += _unknownFields.CalculateSize();
@@ -171,7 +171,7 @@ namespace RegistrationService.API.Grpc {
       if (other.Id.Length != 0) {
         Id = other.Id;
       }
-      if (other.ClientId != 0) {
+      if (other.ClientId != 0L) {
         ClientId = other.ClientId;
       }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
@@ -190,7 +190,7 @@ namespace RegistrationService.API.Grpc {
             break;
           }
           case 16: {
-            ClientId = input.ReadInt32();
+            ClientId = input.ReadInt64();
             break;
           }
         }

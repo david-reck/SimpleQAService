@@ -17,7 +17,7 @@ namespace QAService.Grpc
             _grpcClientAddress = address;
         }
 
-        public Task<Hl7Adt> RegistrationDataById(string documentId, int clientId)
+        public Task<Hl7Adt> RegistrationDataById(string documentId, Int64 clientId)
         {
             AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
             var registrationChannel = GrpcChannel.ForAddress(_grpcClientAddress);

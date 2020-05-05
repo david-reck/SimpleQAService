@@ -16,7 +16,7 @@ namespace QAService.Grpc
             _grpcClientAddress = address;
             _moduleCode = module;
         }
-        public Task<bool> ClientFacilitySubscribesToModule(int clientId, string facilityCode)
+        public Task<bool> ClientFacilitySubscribesToModule(Int64 clientId, string facilityCode)
         {
             AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
             var clientChannel = GrpcChannel.ForAddress(_grpcClientAddress);

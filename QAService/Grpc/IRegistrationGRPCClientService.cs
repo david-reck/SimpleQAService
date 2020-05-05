@@ -8,7 +8,7 @@ namespace QAService.Grpc
 {
     public interface IRegistrationGRPCClientService
     {
-        Task<Hl7Adt> RegistrationDataById(string documentId, int clientId);
+        Task<Hl7Adt> RegistrationDataById(string documentId, Int64 clientId);
     }
 }
 

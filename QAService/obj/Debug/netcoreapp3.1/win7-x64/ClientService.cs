@@ -25,12 +25,12 @@ namespace ClientService.API.Grpc {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "ChlQcm90by9DbGllbnRTZXJ2aWNlLnByb3RvEglDbGllbnRBcGkiOAoOTW9k",
-            "dWxlc1JlcXVlc3QSEAoIY2xpZW50SWQYASABKAUSFAoMZmFjaWxpdHlDb2Rl",
-            "GAIgASgJIpkBCg9Nb2R1bGVzUmVzcG9uc2USEAoIY2xpZW50SWQYASABKAUS",
-            "EgoKQ2xpZW50TmFtZRgCIAEoCRISCgpGYWNpbGl0eUlkGAMgASgFEhQKDEZh",
+            "dWxlc1JlcXVlc3QSEAoIY2xpZW50SWQYASABKAMSFAoMZmFjaWxpdHlDb2Rl",
+            "GAIgASgJIpkBCg9Nb2R1bGVzUmVzcG9uc2USEAoIY2xpZW50SWQYASABKAMS",
+            "EgoKQ2xpZW50TmFtZRgCIAEoCRISCgpGYWNpbGl0eUlkGAMgASgDEhQKDEZh",
             "Y2lsaXR5Q29kZRgEIAEoCRIUCgxGYWNpbGl0eU5hbWUYBSABKAkSIAoEZGF0",
             "YRgGIAMoCzISLkNsaWVudEFwaS5Nb2R1bGVzIkwKB01vZHVsZXMSEgoKZmFj",
-            "aWxpdHlJZBgBIAEoBRISCgpNb2R1bGVDb2RlGAIgASgJEhkKEU1vZHVsZURl",
+            "aWxpdHlJZBgBIAEoAxISCgpNb2R1bGVDb2RlGAIgASgJEhkKEU1vZHVsZURl",
             "c2NyaXB0aW9uGAMgASgJMnMKEkNsaWVudEFwaVJldHJpZXZhbBJdCiRGaW5k",
             "TW9kdWxlc0J5Q2xpZW50SWRBbmRGYWNpbGl0eUNvZGUSGS5DbGllbnRBcGku",
             "TW9kdWxlc1JlcXVlc3QaGi5DbGllbnRBcGkuTW9kdWxlc1Jlc3BvbnNlQhmq",
@@ -84,9 +84,9 @@ namespace ClientService.API.Grpc {
 
     /// <summary>Field number for the "clientId" field.</summary>
     public const int ClientIdFieldNumber = 1;
-    private int clientId_;
+    private long clientId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int ClientId {
+    public long ClientId {
       get { return clientId_; }
       set {
         clientId_ = value;
@@ -125,7 +125,7 @@ namespace ClientService.API.Grpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (ClientId != 0) hash ^= ClientId.GetHashCode();
+      if (ClientId != 0L) hash ^= ClientId.GetHashCode();
       if (FacilityCode.Length != 0) hash ^= FacilityCode.GetHashCode();
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
@@ -140,9 +140,9 @@ namespace ClientService.API.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (ClientId != 0) {
+      if (ClientId != 0L) {
         output.WriteRawTag(8);
-        output.WriteInt32(ClientId);
+        output.WriteInt64(ClientId);
       }
       if (FacilityCode.Length != 0) {
         output.WriteRawTag(18);
@@ -156,8 +156,8 @@ namespace ClientService.API.Grpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (ClientId != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ClientId);
+      if (ClientId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(ClientId);
       }
       if (FacilityCode.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(FacilityCode);
@@ -173,7 +173,7 @@ namespace ClientService.API.Grpc {
       if (other == null) {
         return;
       }
-      if (other.ClientId != 0) {
+      if (other.ClientId != 0L) {
         ClientId = other.ClientId;
       }
       if (other.FacilityCode.Length != 0) {
@@ -191,7 +191,7 @@ namespace ClientService.API.Grpc {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            ClientId = input.ReadInt32();
+            ClientId = input.ReadInt64();
             break;
           }
           case 18: {
@@ -245,9 +245,9 @@ namespace ClientService.API.Grpc {
 
     /// <summary>Field number for the "clientId" field.</summary>
     public const int ClientIdFieldNumber = 1;
-    private int clientId_;
+    private long clientId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int ClientId {
+    public long ClientId {
       get { return clientId_; }
       set {
         clientId_ = value;
@@ -267,9 +267,9 @@ namespace ClientService.API.Grpc {
 
     /// <summary>Field number for the "FacilityId" field.</summary>
     public const int FacilityIdFieldNumber = 3;
-    private int facilityId_;
+    private long facilityId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int FacilityId {
+    public long FacilityId {
       get { return facilityId_; }
       set {
         facilityId_ = value;
@@ -333,9 +333,9 @@ namespace ClientService.API.Grpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (ClientId != 0) hash ^= ClientId.GetHashCode();
+      if (ClientId != 0L) hash ^= ClientId.GetHashCode();
       if (ClientName.Length != 0) hash ^= ClientName.GetHashCode();
-      if (FacilityId != 0) hash ^= FacilityId.GetHashCode();
+      if (FacilityId != 0L) hash ^= FacilityId.GetHashCode();
       if (FacilityCode.Length != 0) hash ^= FacilityCode.GetHashCode();
       if (FacilityName.Length != 0) hash ^= FacilityName.GetHashCode();
       hash ^= data_.GetHashCode();
@@ -352,17 +352,17 @@ namespace ClientService.API.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (ClientId != 0) {
+      if (ClientId != 0L) {
         output.WriteRawTag(8);
-        output.WriteInt32(ClientId);
+        output.WriteInt64(ClientId);
       }
       if (ClientName.Length != 0) {
         output.WriteRawTag(18);
         output.WriteString(ClientName);
       }
-      if (FacilityId != 0) {
+      if (FacilityId != 0L) {
         output.WriteRawTag(24);
-        output.WriteInt32(FacilityId);
+        output.WriteInt64(FacilityId);
       }
       if (FacilityCode.Length != 0) {
         output.WriteRawTag(34);
@@ -381,14 +381,14 @@ namespace ClientService.API.Grpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (ClientId != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(ClientId);
+      if (ClientId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(ClientId);
       }
       if (ClientName.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ClientName);
       }
-      if (FacilityId != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(FacilityId);
+      if (FacilityId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(FacilityId);
       }
       if (FacilityCode.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(FacilityCode);
@@ -408,13 +408,13 @@ namespace ClientService.API.Grpc {
       if (other == null) {
         return;
       }
-      if (other.ClientId != 0) {
+      if (other.ClientId != 0L) {
         ClientId = other.ClientId;
       }
       if (other.ClientName.Length != 0) {
         ClientName = other.ClientName;
       }
-      if (other.FacilityId != 0) {
+      if (other.FacilityId != 0L) {
         FacilityId = other.FacilityId;
       }
       if (other.FacilityCode.Length != 0) {
@@ -436,7 +436,7 @@ namespace ClientService.API.Grpc {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            ClientId = input.ReadInt32();
+            ClientId = input.ReadInt64();
             break;
           }
           case 18: {
@@ -444,7 +444,7 @@ namespace ClientService.API.Grpc {
             break;
           }
           case 24: {
-            FacilityId = input.ReadInt32();
+            FacilityId = input.ReadInt64();
             break;
           }
           case 34: {
@@ -503,9 +503,9 @@ namespace ClientService.API.Grpc {
 
     /// <summary>Field number for the "facilityId" field.</summary>
     public const int FacilityIdFieldNumber = 1;
-    private int facilityId_;
+    private long facilityId_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public int FacilityId {
+    public long FacilityId {
       get { return facilityId_; }
       set {
         facilityId_ = value;
@@ -556,7 +556,7 @@ namespace ClientService.API.Grpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override int GetHashCode() {
       int hash = 1;
-      if (FacilityId != 0) hash ^= FacilityId.GetHashCode();
+      if (FacilityId != 0L) hash ^= FacilityId.GetHashCode();
       if (ModuleCode.Length != 0) hash ^= ModuleCode.GetHashCode();
       if (ModuleDescription.Length != 0) hash ^= ModuleDescription.GetHashCode();
       if (_unknownFields != null) {
@@ -572,9 +572,9 @@ namespace ClientService.API.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public void WriteTo(pb::CodedOutputStream output) {
-      if (FacilityId != 0) {
+      if (FacilityId != 0L) {
         output.WriteRawTag(8);
-        output.WriteInt32(FacilityId);
+        output.WriteInt64(FacilityId);
       }
       if (ModuleCode.Length != 0) {
         output.WriteRawTag(18);
@@ -592,8 +592,8 @@ namespace ClientService.API.Grpc {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public int CalculateSize() {
       int size = 0;
-      if (FacilityId != 0) {
-        size += 1 + pb::CodedOutputStream.ComputeInt32Size(FacilityId);
+      if (FacilityId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(FacilityId);
       }
       if (ModuleCode.Length != 0) {
         size += 1 + pb::CodedOutputStream.ComputeStringSize(ModuleCode);
@@ -612,7 +612,7 @@ namespace ClientService.API.Grpc {
       if (other == null) {
         return;
       }
-      if (other.FacilityId != 0) {
+      if (other.FacilityId != 0L) {
         FacilityId = other.FacilityId;
       }
       if (other.ModuleCode.Length != 0) {
@@ -633,7 +633,7 @@ namespace ClientService.API.Grpc {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 8: {
-            FacilityId = input.ReadInt32();
+            FacilityId = input.ReadInt64();
             break;
           }
           case 18: {

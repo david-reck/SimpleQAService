@@ -8,21 +8,21 @@ service ClientApiRetrieval {
 	rpc FindModulesByClientIdAndFacilityCode (ModulesRequest) returns (ModulesResponse);
 }
 	message ModulesRequest {
-		int32 clientId = 1;
+		int64 clientId = 1;
 		string facilityCode = 2;
 	}
 
 	message ModulesResponse {
-		int32 clientId = 1;
+		int64 clientId = 1;
         string ClientName  = 2;
-        int32 FacilityId = 3;
+        int64 FacilityId = 3;
         string FacilityCode = 4;
         string FacilityName = 5;
 		repeated Modules data = 6;
 	}
 
 	message Modules {
-		int32 facilityId = 1;
+		int64 facilityId = 1;
         string ModuleCode = 2;
         string ModuleDescription = 3;
 	}

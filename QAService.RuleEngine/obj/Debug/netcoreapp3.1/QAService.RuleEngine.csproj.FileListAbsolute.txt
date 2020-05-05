@@ -9,8 +9,8 @@ C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\QAService.RuleEngine\obj\D
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.RuleEngine\bin\Debug\netcoreapp3.1\QAService.RuleEngine.deps.json
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.RuleEngine\bin\Debug\netcoreapp3.1\QAService.RuleEngine.dll
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.RuleEngine\bin\Debug\netcoreapp3.1\QAService.RuleEngine.pdb
-C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.RuleEngine\obj\Debug\netcoreapp3.1\QAService.RuleEngine.csprojAssemblyReference.cache
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.RuleEngine\obj\Debug\netcoreapp3.1\QAService.RuleEngine.AssemblyInfoInputs.cache
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.RuleEngine\obj\Debug\netcoreapp3.1\QAService.RuleEngine.AssemblyInfo.cs
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.RuleEngine\obj\Debug\netcoreapp3.1\QAService.RuleEngine.dll
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.RuleEngine\obj\Debug\netcoreapp3.1\QAService.RuleEngine.pdb
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\QAService.RuleEngine\obj\Debug\netcoreapp3.1\QAService.RuleEngine.csprojAssemblyReference.cache

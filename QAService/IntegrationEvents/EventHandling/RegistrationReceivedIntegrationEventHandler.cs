@@ -49,10 +49,11 @@ namespace QAService.IntegrationEvents.EventHandling
 
                 if (await _grpcClientService.ClientFacilitySubscribesToModule(@event.ClientId, "DAL"))
                 {
-
+                    try { 
                     Hl7Adt message = await _grpcRegistrationService.RegistrationDataById(@event.DocumentId, @event.ClientId);
+                    
+                  
 
-            
                     bool commandResult = false;
 
                     string[] format = { "yyyyMMdd" };
@@ -70,6 +71,11 @@ namespace QAService.IntegrationEvents.EventHandling
                     _logger.LogInformation("-----Sending command: RunRegistrationRulesCommand");
 
                     commandResult = await _mediatr.Send(command);
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("Error: " + e.Message);
+                    }
                 }
                 await Task.CompletedTask;
             }

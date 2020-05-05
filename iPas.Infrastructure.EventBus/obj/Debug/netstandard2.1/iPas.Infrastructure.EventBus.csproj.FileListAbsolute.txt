@@ -9,8 +9,8 @@ C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPas.Infrastructure.EventB
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\iPas.Infrastructure.EventBus\bin\Debug\netstandard2.1\iPas.Infrastructure.EventBus.deps.json
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\iPas.Infrastructure.EventBus\bin\Debug\netstandard2.1\iPas.Infrastructure.EventBus.dll
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\iPas.Infrastructure.EventBus\bin\Debug\netstandard2.1\iPas.Infrastructure.EventBus.pdb
-C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\iPas.Infrastructure.EventBus\obj\Debug\netstandard2.1\iPas.Infrastructure.EventBus.csprojAssemblyReference.cache
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\iPas.Infrastructure.EventBus\obj\Debug\netstandard2.1\iPas.Infrastructure.EventBus.AssemblyInfoInputs.cache
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\iPas.Infrastructure.EventBus\obj\Debug\netstandard2.1\iPas.Infrastructure.EventBus.AssemblyInfo.cs
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\iPas.Infrastructure.EventBus\obj\Debug\netstandard2.1\iPas.Infrastructure.EventBus.dll
 C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\iPas.Infrastructure.EventBus\obj\Debug\netstandard2.1\iPas.Infrastructure.EventBus.pdb
+C:\Users\dreck\source\repos\iPasCloudPOCServiceFabric\iPasCloudPOCServiceFabric\SimpleQAService\iPas.Infrastructure.EventBus\obj\Debug\netstandard2.1\iPas.Infrastructure.EventBus.csprojAssemblyReference.cache

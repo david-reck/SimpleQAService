@@ -7,6 +7,6 @@ namespace QAService.Grpc
 {
     public interface IClientGRPCClientService
     {
-        Task<bool> ClientFacilitySubscribesToModule(int clientId, string facilityCode);
+        Task<bool> ClientFacilitySubscribesToModule(Int64 clientId, string facilityCode);
     }
 }

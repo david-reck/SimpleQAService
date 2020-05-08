@@ -1,19 +1,13 @@
 ﻿using System.Threading.Tasks;
 using iPas.Infrastructure.EventBus.Abstractions;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Serilog.Context;
 using QAService.IntegrationEvents.Events;
 using QAService.Application.Commands;
 using MediatR;
 using System;
-using Grpc.Net.Client;
-using RegistrationService.API.Grpc;
-using ClientService.API.Grpc;
-using QAService.Application.Models.DTORaw;
-using Newtonsoft.Json;
-using System.Globalization;
 using QAService.Grpc;
+using QAService.Application.Models;
 
 namespace QAService.IntegrationEvents.EventHandling
 {
@@ -49,24 +43,26 @@ namespace QAService.IntegrationEvents.EventHandling
 
                 if (await _grpcClientService.ClientFacilitySubscribesToModule(@event.ClientId, "DAL"))
                 {
-                    try { 
-                    Hl7Adt message = await _grpcRegistrationService.RegistrationDataById(@event.DocumentId, @event.ClientId);
-                    
-                  
+                    try
+                    {
+                        Adt adt = await _grpcRegistrationService.RegistrationDataById(@event.DocumentId, @event.ClientId);
 
-                    bool commandResult = false;
+                        
+                        bool commandResult = false;
 
-                    string[] format = { "yyyyMMdd" };
-                    DateTime date;
+                        string[] format = { "yyyyMMdd" };
+                        DateTime date;
 
-                    DateTime.TryParseExact(message.Hl7Message.Pid.Pid7.Pid71,
+                        DateTime.TryParseExact(adt.content.PID[0].dateTimeBirth,
                                                format,
                                                System.Globalization.CultureInfo.InvariantCulture,
                                                System.Globalization.DateTimeStyles.None,
                                                out date);
 
-                    var command = new RunRegistrationRulesCommand(message.Hl7Message.Pid.Pid5.Pid51, message.Hl7Message.Pid.Pid5.Pid52,
-                       date, message.Hl7Message.Pid.Pid8.Pid81);
+                    var command = new RunRegistrationRulesCommand(adt.content.PID[0].patientName[0].firstName,
+                       adt.content.PID[0].patientName[0].lastName,
+                       date,
+                       adt.content.PID[0].sex);
 
                     _logger.LogInformation("-----Sending command: RunRegistrationRulesCommand");
 

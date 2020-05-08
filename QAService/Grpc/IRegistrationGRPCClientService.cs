@@ -1,14 +1,14 @@
-﻿using QAService.Application.Models.DTORaw;
+﻿using QAService.Application.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace QAService.Grpc
 {
     public interface IRegistrationGRPCClientService
     {
-        Task<Hl7Adt> RegistrationDataById(string documentId, Int64 clientId);
+        Task<Adt> RegistrationDataById(string documentId, Int64 clientId);
+
+
     }
 }
 

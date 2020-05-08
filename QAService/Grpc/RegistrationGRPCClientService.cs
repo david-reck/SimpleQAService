@@ -1,10 +1,9 @@
-﻿using Grpc.Net.Client;
+﻿using Grpc.Core;
+using Grpc.Net.Client;
 using Newtonsoft.Json;
-using QAService.Application.Models.DTORaw;
+using QAService.Application.Models;
 using RegistrationService.API.Grpc;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace QAService.Grpc
@@ -17,7 +16,9 @@ namespace QAService.Grpc
             _grpcClientAddress = address;
         }
 
-        public Task<Hl7Adt> RegistrationDataById(string documentId, Int64 clientId)
+
+
+        public Task<Adt> RegistrationDataById(string documentId, Int64 clientId)
         {
             AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
             var registrationChannel = GrpcChannel.ForAddress(_grpcClientAddress);
@@ -25,9 +26,11 @@ namespace QAService.Grpc
             var adtMessageRequest = new AdtMessageRequest { Id = documentId, ClientId = clientId};
             var reply = registrationClient.FindAdtMessageById(adtMessageRequest);
 
-            Hl7Adt message = JsonConvert.DeserializeObject<Hl7Adt>(reply.AdtMessage);
+            Adt message = JsonConvert.DeserializeObject<Adt>(reply.AdtMessage);
 
             return Task.FromResult(message);
         }
+
+       
     }
 }

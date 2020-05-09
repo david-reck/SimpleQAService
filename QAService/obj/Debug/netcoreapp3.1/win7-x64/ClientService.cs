@@ -26,19 +26,24 @@ namespace ClientService.API.Grpc {
           string.Concat(
             "ChlQcm90by9DbGllbnRTZXJ2aWNlLnByb3RvEglDbGllbnRBcGkiOAoOTW9k",
             "dWxlc1JlcXVlc3QSEAoIY2xpZW50SWQYASABKAMSFAoMZmFjaWxpdHlDb2Rl",
-            "GAIgASgJIpkBCg9Nb2R1bGVzUmVzcG9uc2USEAoIY2xpZW50SWQYASABKAMS",
-            "EgoKQ2xpZW50TmFtZRgCIAEoCRISCgpGYWNpbGl0eUlkGAMgASgDEhQKDEZh",
-            "Y2lsaXR5Q29kZRgEIAEoCRIUCgxGYWNpbGl0eU5hbWUYBSABKAkSIAoEZGF0",
-            "YRgGIAMoCzISLkNsaWVudEFwaS5Nb2R1bGVzIkwKB01vZHVsZXMSEgoKZmFj",
-            "aWxpdHlJZBgBIAEoAxISCgpNb2R1bGVDb2RlGAIgASgJEhkKEU1vZHVsZURl",
-            "c2NyaXB0aW9uGAMgASgJMnMKEkNsaWVudEFwaVJldHJpZXZhbBJdCiRGaW5k",
-            "TW9kdWxlc0J5Q2xpZW50SWRBbmRGYWNpbGl0eUNvZGUSGS5DbGllbnRBcGku",
-            "TW9kdWxlc1JlcXVlc3QaGi5DbGllbnRBcGkuTW9kdWxlc1Jlc3BvbnNlQhmq",
-            "AhZDbGllbnRTZXJ2aWNlLkFQSS5HcnBjYgZwcm90bzM="));
+            "GAIgASgJIj8KF01vZHVsZUZhY2lsaXR5SWRSZXF1ZXN0EhAKCGNsaWVudElk",
+            "GAEgASgDEhIKCmZhY2lsaXR5SWQYAiABKAMimQEKD01vZHVsZXNSZXNwb25z",
+            "ZRIQCghjbGllbnRJZBgBIAEoAxISCgpDbGllbnROYW1lGAIgASgJEhIKCkZh",
+            "Y2lsaXR5SWQYAyABKAMSFAoMRmFjaWxpdHlDb2RlGAQgASgJEhQKDEZhY2ls",
+            "aXR5TmFtZRgFIAEoCRIgCgRkYXRhGAYgAygLMhIuQ2xpZW50QXBpLk1vZHVs",
+            "ZXMiTAoHTW9kdWxlcxISCgpmYWNpbGl0eUlkGAEgASgDEhIKCk1vZHVsZUNv",
+            "ZGUYAiABKAkSGQoRTW9kdWxlRGVzY3JpcHRpb24YAyABKAky2QEKEkNsaWVu",
+            "dEFwaVJldHJpZXZhbBJdCiRGaW5kTW9kdWxlc0J5Q2xpZW50SWRBbmRGYWNp",
+            "bGl0eUNvZGUSGS5DbGllbnRBcGkuTW9kdWxlc1JlcXVlc3QaGi5DbGllbnRB",
+            "cGkuTW9kdWxlc1Jlc3BvbnNlEmQKIkZpbmRNb2R1bGVzQnlDbGllbnRJZEFu",
+            "ZEZhY2lsaXR5SWQSIi5DbGllbnRBcGkuTW9kdWxlRmFjaWxpdHlJZFJlcXVl",
+            "c3QaGi5DbGllbnRBcGkuTW9kdWxlc1Jlc3BvbnNlQhmqAhZDbGllbnRTZXJ2",
+            "aWNlLkFQSS5HcnBjYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::ClientService.API.Grpc.ModulesRequest), global::ClientService.API.Grpc.ModulesRequest.Parser, new[]{ "ClientId", "FacilityCode" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::ClientService.API.Grpc.ModuleFacilityIdRequest), global::ClientService.API.Grpc.ModuleFacilityIdRequest.Parser, new[]{ "ClientId", "FacilityId" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ClientService.API.Grpc.ModulesResponse), global::ClientService.API.Grpc.ModulesResponse.Parser, new[]{ "ClientId", "ClientName", "FacilityId", "FacilityCode", "FacilityName", "Data" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::ClientService.API.Grpc.Modules), global::ClientService.API.Grpc.Modules.Parser, new[]{ "FacilityId", "ModuleCode", "ModuleDescription" }, null, null, null, null)
           }));
@@ -204,6 +209,163 @@ namespace ClientService.API.Grpc {
 
   }
 
+  public sealed partial class ModuleFacilityIdRequest : pb::IMessage<ModuleFacilityIdRequest> {
+    private static readonly pb::MessageParser<ModuleFacilityIdRequest> _parser = new pb::MessageParser<ModuleFacilityIdRequest>(() => new ModuleFacilityIdRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<ModuleFacilityIdRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::ClientService.API.Grpc.ClientServiceReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ModuleFacilityIdRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ModuleFacilityIdRequest(ModuleFacilityIdRequest other) : this() {
+      clientId_ = other.clientId_;
+      facilityId_ = other.facilityId_;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public ModuleFacilityIdRequest Clone() {
+      return new ModuleFacilityIdRequest(this);
+    }
+
+    /// <summary>Field number for the "clientId" field.</summary>
+    public const int ClientIdFieldNumber = 1;
+    private long clientId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long ClientId {
+      get { return clientId_; }
+      set {
+        clientId_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "facilityId" field.</summary>
+    public const int FacilityIdFieldNumber = 2;
+    private long facilityId_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public long FacilityId {
+      get { return facilityId_; }
+      set {
+        facilityId_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as ModuleFacilityIdRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(ModuleFacilityIdRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (ClientId != other.ClientId) return false;
+      if (FacilityId != other.FacilityId) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (ClientId != 0L) hash ^= ClientId.GetHashCode();
+      if (FacilityId != 0L) hash ^= FacilityId.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (ClientId != 0L) {
+        output.WriteRawTag(8);
+        output.WriteInt64(ClientId);
+      }
+      if (FacilityId != 0L) {
+        output.WriteRawTag(16);
+        output.WriteInt64(FacilityId);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (ClientId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(ClientId);
+      }
+      if (FacilityId != 0L) {
+        size += 1 + pb::CodedOutputStream.ComputeInt64Size(FacilityId);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(ModuleFacilityIdRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.ClientId != 0L) {
+        ClientId = other.ClientId;
+      }
+      if (other.FacilityId != 0L) {
+        FacilityId = other.FacilityId;
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            ClientId = input.ReadInt64();
+            break;
+          }
+          case 16: {
+            FacilityId = input.ReadInt64();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
   public sealed partial class ModulesResponse : pb::IMessage<ModulesResponse> {
     private static readonly pb::MessageParser<ModulesResponse> _parser = new pb::MessageParser<ModulesResponse>(() => new ModulesResponse());
     private pb::UnknownFieldSet _unknownFields;
@@ -212,7 +374,7 @@ namespace ClientService.API.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ClientService.API.Grpc.ClientServiceReflection.Descriptor.MessageTypes[1]; }
+      get { return global::ClientService.API.Grpc.ClientServiceReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -473,7 +635,7 @@ namespace ClientService.API.Grpc {
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::ClientService.API.Grpc.ClientServiceReflection.Descriptor.MessageTypes[2]; }
+      get { return global::ClientService.API.Grpc.ClientServiceReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

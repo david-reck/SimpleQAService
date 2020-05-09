@@ -14,12 +14,20 @@ namespace ClientService.API.Grpc {
 
     static readonly grpc::Marshaller<global::ClientService.API.Grpc.ModulesRequest> __Marshaller_ClientApi_ModulesRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::ClientService.API.Grpc.ModulesRequest.Parser.ParseFrom);
     static readonly grpc::Marshaller<global::ClientService.API.Grpc.ModulesResponse> __Marshaller_ClientApi_ModulesResponse = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::ClientService.API.Grpc.ModulesResponse.Parser.ParseFrom);
+    static readonly grpc::Marshaller<global::ClientService.API.Grpc.ModuleFacilityIdRequest> __Marshaller_ClientApi_ModuleFacilityIdRequest = grpc::Marshallers.Create((arg) => global::Google.Protobuf.MessageExtensions.ToByteArray(arg), global::ClientService.API.Grpc.ModuleFacilityIdRequest.Parser.ParseFrom);
 
     static readonly grpc::Method<global::ClientService.API.Grpc.ModulesRequest, global::ClientService.API.Grpc.ModulesResponse> __Method_FindModulesByClientIdAndFacilityCode = new grpc::Method<global::ClientService.API.Grpc.ModulesRequest, global::ClientService.API.Grpc.ModulesResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "FindModulesByClientIdAndFacilityCode",
         __Marshaller_ClientApi_ModulesRequest,
+        __Marshaller_ClientApi_ModulesResponse);
+
+    static readonly grpc::Method<global::ClientService.API.Grpc.ModuleFacilityIdRequest, global::ClientService.API.Grpc.ModulesResponse> __Method_FindModulesByClientIdAndFacilityId = new grpc::Method<global::ClientService.API.Grpc.ModuleFacilityIdRequest, global::ClientService.API.Grpc.ModulesResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "FindModulesByClientIdAndFacilityId",
+        __Marshaller_ClientApi_ModuleFacilityIdRequest,
         __Marshaller_ClientApi_ModulesResponse);
 
     /// <summary>Service descriptor</summary>
@@ -66,6 +74,22 @@ namespace ClientService.API.Grpc {
       public virtual grpc::AsyncUnaryCall<global::ClientService.API.Grpc.ModulesResponse> FindModulesByClientIdAndFacilityCodeAsync(global::ClientService.API.Grpc.ModulesRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_FindModulesByClientIdAndFacilityCode, null, options, request);
+      }
+      public virtual global::ClientService.API.Grpc.ModulesResponse FindModulesByClientIdAndFacilityId(global::ClientService.API.Grpc.ModuleFacilityIdRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return FindModulesByClientIdAndFacilityId(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual global::ClientService.API.Grpc.ModulesResponse FindModulesByClientIdAndFacilityId(global::ClientService.API.Grpc.ModuleFacilityIdRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_FindModulesByClientIdAndFacilityId, null, options, request);
+      }
+      public virtual grpc::AsyncUnaryCall<global::ClientService.API.Grpc.ModulesResponse> FindModulesByClientIdAndFacilityIdAsync(global::ClientService.API.Grpc.ModuleFacilityIdRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return FindModulesByClientIdAndFacilityIdAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      public virtual grpc::AsyncUnaryCall<global::ClientService.API.Grpc.ModulesResponse> FindModulesByClientIdAndFacilityIdAsync(global::ClientService.API.Grpc.ModuleFacilityIdRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_FindModulesByClientIdAndFacilityId, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       protected override ClientApiRetrievalClient NewInstance(ClientBaseConfiguration configuration)

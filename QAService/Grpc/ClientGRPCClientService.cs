@@ -31,5 +31,21 @@ namespace QAService.Grpc
 
             return Task.FromResult(false);
         }
+
+        public Task<bool> ClientFacilitySubscribesToModuleByFacilityId(Int64 clientId, Int64 facilityId)
+        {
+            AppContext.SetSwitch("System.Net.Http.SocketsHttpHandler.Http2UnencryptedSupport", true);
+            var clientChannel = GrpcChannel.ForAddress(_grpcClientAddress);
+            var clientClient = new ClientApiRetrieval.ClientApiRetrievalClient(clientChannel);
+            var modulesRequest = new ModuleFacilityIdRequest { ClientId = clientId, FacilityId = facilityId };
+            var clientServieReply = clientClient.FindModulesByClientIdAndFacilityId(modulesRequest);
+
+            foreach (Modules m in clientServieReply.Data)
+            {
+                if (m.ModuleCode == _moduleCode) { return Task.FromResult(true); }
+            }
+
+            return Task.FromResult(false);
+        }
     }
 }

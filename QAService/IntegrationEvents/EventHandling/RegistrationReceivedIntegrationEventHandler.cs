@@ -41,7 +41,7 @@ namespace QAService.IntegrationEvents.EventHandling
                 _logger.LogInformation("----- Handling integration event: {IntegrationEventId} at {AppName} - ({@IntegrationEvent})", @event.Id, Program.AppName, @event);
 
 
-                if (await _grpcClientService.ClientFacilitySubscribesToModule(@event.ClientId, "DAL"))
+                if (await _grpcClientService.ClientFacilitySubscribesToModuleByFacilityId(@event.ClientId, @event.FacilityId))
                 {
                     try
                     {

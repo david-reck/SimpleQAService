@@ -6,10 +6,16 @@ package ClientApi;
 
 service ClientApiRetrieval {
 	rpc FindModulesByClientIdAndFacilityCode (ModulesRequest) returns (ModulesResponse);
+	rpc FindModulesByClientIdAndFacilityId (ModuleFacilityIdRequest) returns (ModulesResponse);
 }
 	message ModulesRequest {
 		int64 clientId = 1;
 		string facilityCode = 2;
+	}
+
+		message ModuleFacilityIdRequest {
+		int64 clientId = 1;
+		int64 facilityId = 2;
 	}
 
 	message ModulesResponse {
